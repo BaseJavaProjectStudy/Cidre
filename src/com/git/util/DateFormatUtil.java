@@ -23,6 +23,9 @@ public static void main(String[] args) {
 	System.out.println(date);
 	
 }
+/**
+ * @return date 17-9-29 ионГ12:26
+ */
 public static String getDateSecond(){
 	Date date = new Date();
 	DateFormat dateFormat = DateFormat.getInstance();
