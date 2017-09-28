@@ -19,8 +19,13 @@ public static  String getDate(){
 	
 }
 public static void main(String[] args) {
-	String date = getDate();
+	String date = getDateSecond();
 	System.out.println(date);
 	
+}
+public static String getDateSecond(){
+	Date date = new Date();
+	DateFormat dateFormat = DateFormat.getInstance();
+	return dateFormat.format(date);
 }
 }
